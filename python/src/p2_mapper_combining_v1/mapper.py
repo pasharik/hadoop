@@ -1,6 +1,8 @@
 #!/usr/bin/python
 import sys
 
+#Count on single lined in document
+
 for line in sys.stdin:
     a = {}
     for token in line.strip().split(" "):

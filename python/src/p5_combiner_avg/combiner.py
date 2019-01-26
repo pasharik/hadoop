@@ -2,6 +2,8 @@
 import sys
 
 #Combine sub-sums
+# cd python/src/p5_combiner_avg/
+# python3 combiner.py < test_data_for_combiner.txt
 
 (lastKey, sum, count) = (None, 0, 0)
 

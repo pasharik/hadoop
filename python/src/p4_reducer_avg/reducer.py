@@ -2,6 +2,8 @@
 import sys
 
 #Count average
+# cd python/src/p4_reducer_avg/
+# python3 reducer.py < test_data_for_reducer.txt
 
 (lastKey, sum, count) = (None, 0, 0)
 

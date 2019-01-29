@@ -1,7 +1,7 @@
 #!/usr/bin/python
 import sys
 
-#Count on ALL lined in document
+# Count across ALL lines in document
 # cd python/src/p3_mapper_combining_v2/
 # python3 mapper.py < test_data_for_mapper.txt
 

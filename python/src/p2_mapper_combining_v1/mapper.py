@@ -1,7 +1,7 @@
 #!/usr/bin/python
 import sys
 
-#Count on single lined in document
+# Count inside each line in document
 # cd python/src/p2_mapper_combining_v1/
 # python3 mapper.py < test_data_for_mapper.txt
 

@@ -13,7 +13,7 @@ for line in sys.stdin:
     key = item[0]
     value = item[1]
     if lastKey and lastKey != key:
-        if ((not oldLastKey) or (oldLastKey != lastKey)):
+        if (not oldLastKey) or (oldLastKey != lastKey):
             print(lastKey)
         oldLastKey = lastKey
         (lastKey, lastValue) = (key, value)
@@ -22,5 +22,5 @@ for line in sys.stdin:
         (lastKey, lastValue) = (key, value)
 
 if lastKey:
-    if ((not oldLastKey) or (oldLastKey != lastKey)):
+    if (not oldLastKey) or (oldLastKey != lastKey):
         print(lastKey)

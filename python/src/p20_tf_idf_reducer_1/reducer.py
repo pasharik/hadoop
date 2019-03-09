@@ -1,6 +1,7 @@
 #!/usr/bin/python
 import sys
 
+# Out: ((word, doc_id), tf)
 # cd python/src/p20_tf_idf_reducer_1/
 # python3 reducer.py < test_data_for_reducer.txt
 

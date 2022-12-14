@@ -19,7 +19,8 @@ import java.util.StringTokenizer;
 /**
  * Created by pasharik on 17/11/18.
  * To run:
- * hadoop jar word.jar ru.pasharik.WordCountJob input.txt results
+ * hadoop fs -put input.txt /
+ * hadoop jar word.jar ru.pasharik.WordCountJob /input.txt results
  */
 public class WordCountJob extends Configuration implements Tool {
     public static class WordCountMapper extends Mapper<LongWritable, Text, Text, IntWritable> {
